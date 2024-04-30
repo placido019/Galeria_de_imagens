@@ -1,6 +1,29 @@
 body {
-    
+    margin: 0 auto;
 }
 header{
-    background-color: blue;
+    background-color: rgb(57, 57, 255);
+    display: flex;
+    justify-content: space-between; /* só funciona caso display seja definido*/
+    padding: 10px;
+}
+h1 {
+    font-family: cursive;
+    color: rgb(0, 0, 0);
+    margin: 0 auto;
+ 
+}
+#box-categorias button {
+    background-color: rgb(0, 206, 0);
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: white;
+    border: 0;
+}
+#box-ordenar button {
+  background-color: rgb(0, 0, 203);
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: white;
+    border: 0;
 }
