@@ -1,5 +1,15 @@
+
+const notaMedia = 6;
+if(notaMedia <= 6 ) {
+    alert("reprovado")
+} else {
+    alert("aprovado")
+}
+
+
+
 document.addEventListener('DOMCOntentLoaded', function() { 
-    alert(123);
+    window.alert(123);
     //let = posso alterar valor (para contas é perfeito)
     //const = não posso alterar o valor 
 //tipos de dados
@@ -10,4 +20,12 @@ document.addEventListener('DOMCOntentLoaded', function() {
 //null: quando esta vazio
 //array: objeto especial ou ordenado 
 //function: bloco de código reutilizavel
+
+const teste = 50;
+
+let c = 0;
+c = 10;
+console.log(c)
+
+
 })
