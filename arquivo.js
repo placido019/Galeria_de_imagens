@@ -1,4 +1,4 @@
-
+ /*
 const aluno = "joao"
 
 if(aluno == "joao") {
@@ -27,8 +27,6 @@ alert("aluno quase passou")
 !== se é estritamente diferente
 */
 
-document.addEventListener('DOMContentLoaded', function() { 
-    window.alert(123);
     //let = posso alterar valor (para contas é perfeito)
     //const = não posso alterar o valor 
 //tipos de dados
@@ -38,6 +36,18 @@ document.addEventListener('DOMContentLoaded', function() {
 //boolean: retorna dois valores true e false
 //null: quando esta vazio
 //array: objeto especial ou ordenado 
-//function: bloco de código reutilizavel
+//function: bloco de código reutilizavel 
 
-})
+
+// -------------------------- // ---------------------------------
+
+//Funções são blocos de código que podem ser chamados e 
+//reutilizados :)
+
+function PrimeiraFunção () { 
+    return 'Olá, essa é a disciplina de desenvolvimento web';
+}
+PrimeiraFunção();
+
+
+});
