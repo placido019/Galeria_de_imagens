@@ -22,10 +22,10 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 */
 const baseImagens = {
-    todas: ["imagem.png", "cidade.jpg", "animal.jpg", "natureza.jpg"],
+    todas: ["cidade.jpg", "animais.jpg", "natureza.jpg"],
     natureza: ["natureza.jpg"],
     cidade: ["cidade.jpg"],
-    animais: ["animal.jpg"],
+    animais: ["animais.jpg"],
   };
   
   function carregaimagens(categoria = "todas") {
@@ -53,6 +53,7 @@ const baseImagens = {
       if (event.target.tagName === "BUTTON") {
         const categoria = event.target.textContent.toLowerCase();
         carregaimagens(categoria === "todas" ? "todas" : categoria);
+        alert(123);
       }
     });
   });
